@@ -2,7 +2,9 @@ apiVersion: v2
 name: cert-manager
 description: A Helm chart to refer the official cert-manager helm chart
 type: application
+# renovate: datasource=helm depName=cert-manager registryUrls=https://charts.jetstack.io
 version: 1.16.2
+# renovate: datasource=helm depName=cert-manager registryUrls=https://charts.jetstack.io
 appVersion: "1.16.2"
 dependencies:
   - name: cert-manager
