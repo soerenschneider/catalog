@@ -3,11 +3,11 @@ name: cert-manager
 description: A Helm chart to refer the official cert-manager helm chart
 type: application
 # renovate: datasource=helm depName=cert-manager registryUrl=https://charts.jetstack.io
-version: 1.16.2
+version: v1.17.1
 # renovate: datasource=helm depName=cert-manager registryUrl=https://charts.jetstack.io
 appVersion: "1.16.2"
 dependencies:
   - name: cert-manager
     # renovate: datasource=helm depName=cert-manager registryUrl=https://charts.jetstack.io
-    version: 1.16.2
+    version: v1.17.1
     repository: https://charts.jetstack.io
